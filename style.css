@@ -1,0 +1,15 @@
+
+nav a {
+  color: yellowgreen;
+  text-decoration: none;
+  padding: 8px 16px;
+}
+
+nav a:hover {
+  color: #0077cc;
+}
+
+nav a.active {
+  color: #0077cc;
+  font-weight: bold;
+}
