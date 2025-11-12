@@ -1,3 +1,4 @@
+// Simple form feedback
 document.addEventListener("DOMContentLoaded", () => {
   const form = document.getElementById("contactForm");
   const message = document.getElementById("formMessage");
@@ -10,4 +11,3 @@ document.addEventListener("DOMContentLoaded", () => {
     });
   }
 });
-
