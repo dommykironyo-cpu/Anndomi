@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Doan Company | Contact</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <header>
+    <div class="logo-area">
+      <img src="images/logo.png" alt="Doan Company Logo" class="logo" />
+      <h1>Doan Company</h1>
+    </div>
+    <nav>
+      <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="products.html">Products</a></li>
+        <li><a href="contact.html" class="active">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <section class="contact-section">
+    <h2>Contact Us</h2>
+    <p>We are located at Karura past Ruaka.</p>
+    <ul>
+      <li>Email: <a href="mailto:doan@gmail.com">doan@gmail.com</a></li>
+      <li>Phone: 0707362651</li>
+      <li>Location: Karura past Ruaka</li>
+    </ul>
+
+    <div class="map-placeholder">
+      <img src="https://images.unsplash.com/photo-1529333166437-7750a6dd5a70" alt="Map placeholder" />
+      <p>(Map location coming soon)</p>
+    </div>
+
+    <form id="contactForm">
+      <input type="text" id="name" placeholder="Your Name" required />
+      <input type="email" id="email" placeholder="Your Email" required />
+      <textarea id="message" placeholder="Your Message" required></textarea>
+      <button type="submit" class="btn">Send Message</button>
+    </form>
+    <p id="formMessage"></p>
+  </section>
+
+  <footer>
+    <p>© 2025 Doan Company</p>
+  </footer>
+  <script src="script.js"></script>
+</body>
+</html>
